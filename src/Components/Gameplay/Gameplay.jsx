@@ -7,7 +7,6 @@ import Rules from "../Rules/Rules.Jsx"
 
 
 const Gameplay = () => {
-    10 + 10
     const [score, setScore] = useState(0)
     const [selectedNumber, setSelectedNumber] = useState()
     const [currentDice, setCurrentDice] = useState(1)
