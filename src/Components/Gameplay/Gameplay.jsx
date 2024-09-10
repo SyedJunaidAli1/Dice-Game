@@ -3,7 +3,7 @@ import NumberSelector from "../NumberSelector/NumberSelector"
 import RoleDice from "../RoleDice/RoleDice"
 import TotalScore from "../TotalScore/TotalScore"
 import styles from "./Gameplay.module.css"
-import Rules from "../Rules/Rules.Jsx"
+import Rules from "../Rule/Rules.Jsx"
 
 
 const Gameplay = () => {
