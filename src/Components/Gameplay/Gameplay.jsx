@@ -3,7 +3,7 @@ import NumberSelector from "../NumberSelector/NumberSelector"
 import RoleDice from "../RoleDice/RoleDice"
 import TotalScore from "../TotalScore/TotalScore"
 import styles from "./Gameplay.module.css"
-import Rules from "../Ruleforgame/Rule.jsx"
+import Ruleforgame from "../Ruleforgame/Ruleforgame.jsx"
 
 
 const Gameplay = () => {
@@ -45,7 +45,7 @@ const Gameplay = () => {
                 <button onClick={resetScore} className="btn">Reset Score</button>
                 <button onClick={() => setShowRules((prev) => !prev)} className="btn">{ShowRules ? "Hide" : "Show"} Rules</button>
             </div>
-            {ShowRules && <Rules/> }
+            {ShowRules && <Ruleforgame/> }
         </main>
     )
 }
