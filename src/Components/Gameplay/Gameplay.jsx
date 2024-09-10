@@ -45,7 +45,7 @@ const Gameplay = () => {
                 <button onClick={resetScore} className="btn">Reset Score</button>
                 <button onClick={() => setShowRules((prev) => !prev)} className="btn">{ShowRules ? "Hide" : "Show"} Rules</button>
             </div>
-            {ShowRules && <Ruleforgame/> }
+            {ShowRules && <Ruleforgame />}
         </main>
     )
 }
